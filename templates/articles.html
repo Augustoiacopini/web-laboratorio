@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{%block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center">Desarrollos Cientificos</h1>
+        </div>
+    </div>
+
+
+    <div class="row article-container">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <img src="{% static 'images/gpcrart.webp' %}" width="200" height="200" class="card-img-top" alt="Imagen del Artículo 0">
+                <div class="card-body">
+                    <h5 class="card-title">GPCR molecular dynamics forecasting using recurrent neural networks</h5>
+                    <p class="card-text">In this study, a Recurrent and Convolutional Neural Network (RNN) model, namely Long Short-Term Memory (LSTM), is used to predict the dynamics of two GPCR states and three specific simulations of each one, through their activation path and focussing on specific receptor regions.</p>
+                    <a href="https://www.nature.com/articles/s41598-023-48346-4?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20231128&utm_content=10.1038/s41598-023-48346-4" class="btn btn-primary">Leer más</a>
+                </div>
+            </div>
+        </div>
+    <div class="row article-container">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <img src="{% static 'images/agronomy.jpg' %}" width="200" height="200" class="card-img-top" alt="Imagen del Artículo 1">
+                <div class="card-body">
+                    <h5 class="card-title">Intelligent Weed Management Based on Object Detection Neural Networks in Tomato Crops</h5>
+                    <p class="card-text">As the tomato (Solanum lycopersicum L.) is one of the most important crops worldwide, and the conventional approach for weed control compromises its potential productivity. Thus, the automatic detection of the most aggressive weed species is necessary to carry out selective control of them.</p>
+                    <a href="https://doi.org/10.3390/agronomy12122953" class="btn btn-primary">Leer más</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <img src="{% static 'images/pesticidas.jpg' %}" width="200" height="200" class="card-img-top" alt="Imagen del Artículo 2">
+                <div class="card-body">
+                    <h5 class="card-title">Precision Chemical Weed Management Strategies: A Review and a Design of a New CNN-Based Modular Spot Sprayer</h5>
+                    <p class="card-text">Site-specific weed control offers a great potential for herbicide savings in agricultural crops without causing yield losses and additional weed management costs in the following years. Therefore, precision weed management is an efficient tool to meet the EU targets for pesticide reduction.</p>
+                    <a href="https://doi.org/10.3390/agronomy12071620" class="btn btn-primary">Leer más</a>
+                </div>
+            </div>
+        </div>
+    <div class="row article-container">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <img src="{% static 'images/reclamo.jpg' %}" width="200" height="200" class="card-img-top" alt="Imagen del Artículo 4">
+                <div class="card-body">
+                    <h5 class="card-title">RECLAMO: Unlocking the potential of wastewater reuse for agricultural irrigation in Spain </h5>
+                    <p class="card-text">Increasing water scarcity is encouraging the use of unconventional water resources. In recent years, the European Union has launched numerous initiatives to promote and facilitate water reuse for agricultural irrigation.</p>
+                    <a href="https://riojournal.com/article/76793/" class="btn btn-primary">Leer más</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <img src="{% static 'images/precison_agric.jpg' %}" width="200" height="200" class="card-img-top" alt="Imagen del Artículo 5">
+                <div class="card-body">
+                    <h5 class="card-title">Multi species weed detection with Retinanet one-step network in a maize field</h5>
+                    <p class="card-text">Weed density and composition are not uniform throughout the field, nevertheless, the conventional approach is to carry out a uniform application. Object Detection Networks have already arrived in agricultural applications that can be used for weed management. Weed density and composition are not uniform throughout the field, nevertheless, the conventional approach is to carry out a uniform application. Object Detection Networks have already arrived in agricultural applications that can be used for weed management. </p>
+                    <a href="https://doi.org/10.3920/978-90-8686-916-9_8" class="btn btn-primary">Leer más</a>
+                </div>
+            </div>
+        </div>
+    <div class="row article-container">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <img src="{% static 'images/sensors.webp' %}" width="200" height="200" class="card-img-top" alt="Imagen del Artículo 6">
+                <div class="card-body">
+                    <h5 class="card-title">Evaluation of Vineyard Cropping Systems Using On-Board RGB-Depth Perception</h5>
+                    <p class="card-text">Accurate reconstruction of plant geometrical features is of crucial importance for decision making processes aiming at optimal agricultural crop management. Reconstructing plant shape and acting according to the plant status enable farmers to improve crop yield, while reducing agrochemicals and operational costs.</p>
+                    <a href="https://doi.org/10.3390/s20236912" class="btn btn-primary">Leer más</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Agrega más tarjetas de artículo según sea necesario -->
+
+    </div>
+</div>
+
+
+
+{% endblock %}

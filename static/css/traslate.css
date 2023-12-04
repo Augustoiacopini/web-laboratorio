@@ -1,0 +1,88 @@
+/* Estilo para el contenedor del botón de Google Translate */
+#google_translate_element {
+  display: inline-block;
+  margin: 10px; /* Ajusta el margen según sea necesario */
+}
+
+/* Estilo para el botón en sí */
+.goog-te-combo {
+  border-radius: 4px; /* Bordes redondeados */
+  overflow: hidden;
+  background-color: #4285f4; /* Color de fondo azul de Google */
+  color: #fff; /* Color del texto blanco */
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 12px; /* Ajusta el relleno según sea necesario */
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo para el triángulo en el botón */
+.goog-te-gadget-icon {
+  display: none; /* Oculta el icono predeterminado de Google Translate */
+}
+
+/* Estilo para los elementos del menú desplegable */
+.goog-te-menu-value {
+  padding: 8px 12px; /* Ajusta el relleno según sea necesario */
+}
+
+/* Cambia el color de fondo al pasar el ratón sobre el botón */
+.goog-te-combo:hover {
+  background-color: #3367d6; /* Color de fondo azul oscuro al pasar el ratón */
+}
+
+/* Cambia el color de fondo cuando el botón está abierto */
+.goog-te-combo-hover {
+  background-color: #3367d6; /* Color de fondo azul oscuro cuando está abierto */
+}
+
+/* Ajusta el estilo del texto dentro del botón */
+.goog-te-combo option {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* Estilo para el contenedor del botón de Google Translate */
+#google_translate_element {
+  display: inline-block;
+  margin: 10px; /* Ajusta el margen según sea necesario */
+}
+
+/* Estilo para el botón en sí */
+.goog-te-combo {
+  border-radius: 4px; /* Bordes redondeados */
+  overflow: hidden;
+  background-color: #4285f4; /* Color de fondo azul de Google */
+  color: #fff; /* Color del texto blanco */
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 12px; /* Ajusta el relleno según sea necesario */
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo para el triángulo en el botón */
+.goog-te-gadget-icon {
+  display: none; /* Oculta el icono predeterminado de Google Translate */
+}
+
+/* Estilo para los elementos del menú desplegable */
+.goog-te-menu-value {
+  padding: 8px 12px; /* Ajusta el relleno según sea necesario */
+}
+
+/* Cambia el color de fondo al pasar el ratón sobre el botón */
+.goog-te-combo:hover {
+  background-color: #3367d6; /* Color de fondo azul oscuro al pasar el ratón */
+}
+
+/* Cambia el color de fondo cuando el botón está abierto */
+.goog-te-combo-hover {
+  background-color: #3367d6; /* Color de fondo azul oscuro cuando está abierto */
+}
+
+/* Ajusta el estilo del texto dentro del botón */
+.goog-te-combo option {
+  font-size: 14px;
+  font-weight: bold;
+}
